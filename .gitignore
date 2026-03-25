@@ -1,0 +1,12 @@
+# Snowflake CLI
+.snowflake/
+*.toml
+
+# Claude
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/

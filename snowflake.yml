@@ -1,0 +1,10 @@
+definition_version: 1.1
+native_app:
+  name: snowguard
+  source_stage: stage_content.snowguard_stage
+  artifacts:
+    - src: app/*
+      dest: ./
+  package:
+    scripts:
+      - app/scripts/shared_content.sql

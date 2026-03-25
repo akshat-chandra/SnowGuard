@@ -1,0 +1,1 @@
+/Users/akshatchandra/Documents/LLM/Snowflake/app/scripts/shared_content.sql

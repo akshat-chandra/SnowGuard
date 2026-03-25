@@ -1,0 +1,14 @@
+manifest_version: 1
+
+artifacts:
+  setup_script: setup_script.sql
+  readme: README.md
+  default_streamlit: ui.snowguard_dashboard
+
+privileges:
+  - IMPORTED PRIVILEGES ON SNOWFLAKE DB:
+      description: "Required to access ACCOUNT_USAGE views for table metadata and query history"
+
+# Note: Tasks must be created by the consumer outside the app.
+# Example: CREATE TASK my_task WAREHOUSE = my_wh SCHEDULE = 'USING CRON 0 * * * * UTC'
+#          AS CALL SNOWGUARD_APP.CORE.RUN_SCHEDULED_CHECKS();

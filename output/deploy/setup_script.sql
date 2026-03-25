@@ -1,0 +1,1 @@
+/Users/akshatchandra/Documents/LLM/Snowflake/app/setup_script.sql
